@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Քիմիաի հարցաշար</string>
+    <string name="title">Քիմիաի հարցաշար</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="info_title">ԻՆՖՈՐՄԱՑԻԱՅ</string>
+    <string name="info_1">1. Խաղը «Քիմիա» առարկայի վերաբերեալ է</string>
+    <string name="info_3">3. Բոլոր թուերը գրել թուերով</string>
+    <string name="info_2">2. «Ալկոհոլի ազդեցութիւնը որգանիզմի վրայ» թեմայով</string>
+    <string name="info_4">4. Սկսել մեծատառով</string>
+    <string name="info_5">5. Վերջակէտ չդնել</string>
+    <string name="feedback_title">ՅԵՏԱԴԱՐՁ ԿԱՊ</string>
+    <string name="feedback_1">Խաղի ստեղծող։ Անդրանիկ Ոսկանեան</string>
+    <string name="feedback_2">Հարցերի եւ առաջարկների համար կարող եք կապուել\nandranik.voskanyan@realschool.am\nԷլ․ հասցէին</string>
+</resources>

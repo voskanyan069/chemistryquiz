@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_screen_4"
+    android:orientation="vertical"
+    tools:context=".EndActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOpacity"
+        android:fontFamily="@font/armguard"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30sp"
+        android:paddingTop="25sp"
+        android:paddingRight="30sp"
+        android:paddingBottom="25sp"
+        android:text="Վերջ"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:background="@drawable/btn_answer"
+        android:fontFamily="@font/font"
+        android:padding="20sp"
+        android:text="Ստուգել"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/sc_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

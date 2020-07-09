@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_screen_1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorOpacity"
+        android:fontFamily="@font/armguard"
+        android:gravity="center_horizontal"
+        android:paddingTop="25sp"
+        android:paddingBottom="25sp"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:layout_marginTop="100sp"
+        android:text="Սկսել" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/armguard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="20sp"
+        android:text="Ինֆորմացիայ" />
+
+    <Button
+        android:id="@+id/btn_feedback"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/armguard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="Յետադարձ կապ" />
+
+</LinearLayout>
